@@ -1,0 +1,59 @@
+/*重置样式*/
+body{
+    margin: 0;
+    background-color: #ef6a6c;
+}
+/*play start*/
+.player{
+    width: 1130px;
+    height: 730px;
+    background-color: #cf2929;
+    margin: 10px auto 0 auto;
+}
+.title{
+    width: 1130px;
+    height: 48px;
+    background-color: #c7e8ea;
+    text-align: center;
+    line-height: 48px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.myvideo{
+    width: 1130px;
+    height: 636px;
+}
+.controls{
+    width: 1130px;
+    height: 46px;
+    background-color: #c7e8ea;
+}
+.videofile{
+    width: 1130px;
+    height: 636px;
+}
+.play,.volume,.openfile{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 7px 9px;
+    background-size: cover;
+}
+.play{
+    background-image: url("../images/play.png");
+}
+.volume{
+    background-image: url("../images/volume-max.png");
+}
+.progress{
+    width: 800px;
+    height: 14px;
+    background: linear-gradient(to right, #0086b3 0%, #ccc 0%);/*渐变色，控制播放进度*/
+    float: left;
+    margin-top: 15px;
+    border-radius: 7px;
+}
+.openfile{
+    background-image: url("../images/open.png");
+}
+/*play end*/
